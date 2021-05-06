@@ -1,0 +1,38 @@
+// $custom-colors: (
+//   "warning": #FF9900
+// );
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Raleway:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Mulish, Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1em;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway, sans-serif;
+}
+
+.family-primary {
+  font-family: Mulish, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.border-chip {
+  border-radius: 1px 5px 5px 5px;
+}
+
+.transparent-black {
+
+}

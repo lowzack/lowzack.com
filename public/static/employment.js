@@ -1,7 +1,7 @@
-import cloverLogo from '../public/clover_primary_gray_rgb.png';
-import ctctLogo from '../public/ctct-logo.svg';
-import itsLogo from '../public/its_logo.png';
-import dibsLogo from '../public/dibs-logo.svg'
+import cloverLogo from '../clover_primary_gray_rgb.png';
+import ctctLogo from '../ctct-logo.svg';
+import itsLogo from '../its_logo.png';
+import dibsLogo from '../dibs-logo.svg'
 
 export default {
   currentEmployment: {
