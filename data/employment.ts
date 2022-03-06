@@ -1,20 +1,22 @@
-import cloverLogo from '../clover_primary_gray_rgb.png';
-import ctctLogo from '../ctct-logo.svg';
-import itsLogo from '../its_logo.png';
-import dibsLogo from '../dibs-logo.svg'
-
 export default {
   currentEmployment: {
     company: 'Clover Network, Inc.',
-    logo: cloverLogo,
+    logo: '/static/clover_primary_gray_rgb.png',
     logoAlt: 'Clover Network, Inc. Logo',
     website: 'https://www.clover.com/',
     dates: 'October 2018 - present',
     overview: 'Build and maintain scalable full stack applications using Java, Spring Boot, Redis, MySQL, Typescript and React.js',
     roles: [
       {
-        title: 'Senior Software Engineer',
-        dates: 'March 2020 - present',
+        title: 'Engineering Manager',
+        dates: 'August 2022 - present',
+        highlights: [
+          'Architected a performant, highly available, and multi-locale first-party online ordering product for SMBs that integrates directly with the Clover POS via the Clover Developer API using Java, Spring Boot, Redis, MySQL and React/Typescript.',
+        ]
+      },
+      {
+        title: 'Senior Software Engineer, Tech Lead',
+        dates: 'March 2020 - August 2022',
         highlights: [
           'Architected a performant, highly available, and multi-locale first-party online ordering product for SMBs that integrates directly with the Clover POS via the Clover Developer API using Java, Spring Boot, Redis, MySQL and React/Typescript.',
           'Pioneered real-time application performance monitoring to create a proactive culture around bugs and issues using DataDog, PagerDuty and Wavefront to monitor errors and the performance of Spring Boot microservices.',
@@ -36,7 +38,7 @@ export default {
   previousEmployment: [
     {
       company: 'Constant Contact',
-      logo: ctctLogo,
+      logo: '/static/ctct-logo.svg',
       logoAlt: 'Constant Contact Logo',
       website: 'https://www.constantcontact.com/',
       dates: 'July 2016 - September 2018',
@@ -59,7 +61,7 @@ export default {
     },
     {
       company: 'RIT ITS',
-      logo: itsLogo,
+      logo: '/static/its_logo.png',
       logoAlt: 'RIT ITS Logo',
       website: 'https://www.rit.edu/its/',
       dates: 'August 2015 - July 2016',
@@ -78,7 +80,7 @@ export default {
     },
     {
       company: '1stdibs.com',
-      logo: dibsLogo,
+      logo: '/static/dibs-logo.svg',
       logoAlt: '1stdibs.com logo',
       website: 'https://www.1stdibs.com',
       dates: 'June 2015 - August 2015',
