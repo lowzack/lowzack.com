@@ -4,6 +4,7 @@ import Image from 'next/image';
 import EmploymentDetail from '../components/EmploymentDetail';
 import Hero from '../components/Hero'
 import Section from '../components/Section';
+import SocialLinks from '../components/SocialLinks';
 import employment from '../data/employment';
 
 export const getStaticProps = async (context) => {
@@ -21,7 +22,7 @@ export default function Home({
   return (
     <div>
       <Head>
-        <title>Zack Low - Software Engineer</title>
+        <title>Zack Low - Engineering Leader</title>
         <link rel="shortcut icon" href="/public/static/favicon.ico" />
         <link rel="preload" as="image" href="/static/prof.jpeg" />
       </Head>
@@ -37,13 +38,13 @@ export default function Home({
               <div className="w-100">
                 <div className="d-block d-lg-inline-flex align-items-end">
                   <h1 className="pe-4">Zack Low</h1>
-                  <h2 className="pb-lg-1">Software Engineer</h2>
+                  <h2 className="pb-lg-1">Engineering Leader</h2>
                 </div>
                 <h3 className="pb-2">New York City</h3>
-                {/* <social-links
-                  class="h1 w-100 list-inline social-links"
-                  itemClass="list-inline-item mx-3"
-                /> */}
+                <SocialLinks
+                  // class="h1 w-100 list-inline social-links"
+                  // itemClass="list-inline-item mx-3"
+                />
               </div>
             </div>
           </div>
