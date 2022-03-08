@@ -5,13 +5,15 @@ export default {
     logoAlt: 'Clover Network, Inc. Logo',
     website: 'https://www.clover.com/',
     dates: 'October 2018 - present',
-    overview: 'Build and maintain scalable full stack applications using Java, Spring Boot, Redis, MySQL, Typescript and React.js',
+    overview: 'Lead a highly efficient global team of cross-functional engineers throughout the software development lifecycle of multiple consumer facing web services and applications.',
     roles: [
       {
         title: 'Engineering Manager',
-        dates: 'August 2022 - present',
+        dates: 'August 2021 - present',
         highlights: [
-          'Architected a performant, highly available, and multi-locale first-party online ordering product for SMBs that integrates directly with the Clover POS via the Clover Developer API using Java, Spring Boot, Redis, MySQL and React/Typescript.',
+          'Crafted a recruitment and hiring process focused on candidate quality, efficiency of developer time and clear communication. This process was used to hire 80+ off-shore engineering resources, and is currently in use by 3 onshore teams.',
+          'Communicated with other product, engineering, and design stakeholders to scope and plan projects to scale the company\'s consumer facing ordering, loyalty and eCommerce applications.',
+          'Conducted performance reviews, goal setting and resource planning in order to manage, develop, and retain talent.'
         ]
       },
       {
