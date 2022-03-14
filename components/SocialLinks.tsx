@@ -7,8 +7,8 @@ import styles from './SocialLinks.module.scss';
 const SocialLinks: FC<AllHTMLAttributes<HTMLUListElement>> = ({className, ...props }) => {
     return (
       <ul className={clsx(className, styles.list)}>
-          <li><a href="https://www.linkedin.com/in/lowzack/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className={styles.icon} /></a></li>
-          <li><a href="https://github.com/lowzack" target="_blank"><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
+          <li><a href="https://www.linkedin.com/in/lowzack/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className={styles.icon} /></a></li>
+          <li><a href="https://github.com/lowzack" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
       </ul>
     )
   }
