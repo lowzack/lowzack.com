@@ -64,14 +64,18 @@ export default function Home({
           <div className="row mt-4">
             <div className="col-xs-12">
               <p className="h5 px-2 mb-0 family-primary">
-                Full stack web applications engineer utilizing skills in API
-                design, microservices, service decompizition and component based
-                front-end engineering to build performant, scalable and
-                observable modern web applications. Passionate about building
-                efficient and technically precise teams by fostering
-                collaborative environments with short feedback loops and
-                providing goal-based mentorship in order to elevate other team
-                members.
+                Engineering leader, passionate about building highly efficient
+                and technically precise engineering teams by fostering
+                collaborative and data-driven environments with short feedback
+                loops. I provide goal-based mentorship and coaching in order to
+                elevate others and create a culture around me around proactivity
+                and transparency. I utilize my experience across full stack web
+                applications, API design, microservices, service decompizition
+                and component based front-end engineering to guide the technical
+                direction of my teams. I have a background of acquiring and
+                developing engineering talent by actively recruiting and
+                participating in normal recruiting activities as well as leading
+                college grad and internship programs.
               </p>
             </div>
           </div>
