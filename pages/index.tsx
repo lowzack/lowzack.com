@@ -23,15 +23,15 @@ export default function Home({
     <div>
       <Head>
         <title>Zack Low - Engineering Leader</title>
-        <link rel="shortcut icon" href="/public/static/favicon.ico" />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
         <link rel="preload" as="image" href="/static/prof.jpeg" />
       </Head>
       <Hero className="py-2">
         <div
           className="container p-4 text-white"
           style={{
-            backdropFilter: "blur(5px)",
-            backgroundColor: "rgba(0,0,0,.25)",
+            backdropFilter: "blur(20px)",
+            backgroundColor: "rgba(0,0,0,.5)",
           }}
         >
           <div className="row">
@@ -70,12 +70,12 @@ export default function Home({
                 loops. I provide goal-based mentorship and coaching in order to
                 elevate others and create a culture around me around proactivity
                 and transparency. I utilize my experience across full stack web
-                applications, API design, microservices, service decompizition
+                applications, API design, microservices, service decomposition
                 and component based front-end engineering to guide the technical
                 direction of my teams. I have a background of acquiring and
                 developing engineering talent by actively recruiting and
-                participating in normal recruiting activities as well as leading
-                college grad and internship programs.
+                participating in normal recruiting activities, as well as
+                leading college grad and internship programs.
               </p>
             </div>
           </div>

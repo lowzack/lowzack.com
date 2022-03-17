@@ -28,7 +28,7 @@ export default {
         ],
       },
       {
-        title: "Web Engineer",
+        title: "Software Engineer II",
         dates: "October 2018 - March 2020",
         highlights: [
           "Swiftly and precicely deliver feature enhancements to an in-house e-commerce platform built using React/Typescript, Java, and a Contentful CMS",

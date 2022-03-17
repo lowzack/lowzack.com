@@ -1,5 +1,6 @@
 .hero {
-  background-size: cover;
-  background-position: center;
-  background-image: url("/static/20190930_095016.jpg");
+  .heroImage {
+    z-index: -5;
+    height: 100%;
+  }
 }

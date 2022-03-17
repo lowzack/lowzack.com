@@ -28,12 +28,14 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
             className="py-4 py-md-5 px-5 px-md-0"
             style={{ position: "relative", height: "100%", width: "100%" }}
           >
-            <Image
-              src={company.logo}
-              layout="fill"
-              alt={company.logoAlt}
-              objectFit="scale-down"
-            />
+            <a href={company.website} target="_blank" rel="noreferrer">
+              <Image
+                src={company.logo}
+                layout="fill"
+                alt={company.logoAlt}
+                objectFit="scale-down"
+              />
+            </a>
           </div>
         </div>
       </div>
