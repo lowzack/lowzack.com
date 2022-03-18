@@ -64,18 +64,19 @@ export default function Home({
           <div className="row mt-4">
             <div className="col-xs-12">
               <p className="h5 px-2 mb-0 family-primary">
-                Engineering leader, passionate about building highly efficient
+                Engineering leader passionate about building highly efficient
                 and technically precise engineering teams by fostering
-                collaborative and data-driven environments with short feedback
-                loops. I provide goal-based mentorship and coaching in order to
-                elevate others and create a culture around me around proactivity
-                and transparency. I utilize my experience across full stack web
+                collaborative data-driven environments with short feedback
+                loops. I utilize my experience across full stack web
                 applications, API design, microservices, service decomposition
                 and component based front-end engineering to guide the technical
-                direction of my teams. I have a background of acquiring and
-                developing engineering talent by actively recruiting and
-                participating in normal recruiting activities, as well as
-                leading college grad and internship programs.
+                direction of my teams. Effective collaborator across business
+                functions including but not limited to: engineering, product,
+                design, ops, infrastructure, marketing and support functions.
+                Strong product and UX fundamentals with a focus on market trends
+                and technical innovation. Extremely effective recruiter with an
+                eye for identifying and developing top performing talent across
+                engineering, design, and product functions.
               </p>
             </div>
           </div>
