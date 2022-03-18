@@ -25,6 +25,10 @@ export default function Home({
         <title>Zack Low - Engineering Leader</title>
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <link rel="preload" as="image" href="/static/prof.jpeg" />
+        <meta
+          name="description"
+          content="Engineering leader passionate about building efficient and technically precise engineering teams by fostering collaborative environments with short feedback loops."
+        />
       </Head>
       <Hero className="py-2">
         <div

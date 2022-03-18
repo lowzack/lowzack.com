@@ -6,13 +6,12 @@ export default {
     website: "https://www.clover.com/",
     dates: "October 2018 - present",
     overview:
-      "Lead a highly efficient global team of cross-functional engineers throughout the software development lifecycle of multiple consumer facing web services and applications.",
+      "Lead a highly efficient global team of cross-functional engineers through the software development lifecycle of multiple consumer facing web services and applications.",
     roles: [
       {
         title: "Engineering Manager",
         dates: "August 2021 - present",
         highlights: [
-          "Lead a highly efficient global team of cross-functional engineers through the software development lifecycle of multiple consumer facing web services and applications.",
           "Crafted recruitment and hiring processes focused on candidate quality, efficiency of developer time, and clear communication. Eventually, this process was used to hire 80+ offshore engineering resources and is currently in use by 3 onshore teams.",
           "Communicated with product, engineering, and design stakeholders to scope and plan projects to scale the company's consumer facing ordering, loyalty and eCommerce web and mobile applications.",
           "Conducted performance reviews, goal setting, salary reviews and resource planning in order to manage, develop, and retain talent.",

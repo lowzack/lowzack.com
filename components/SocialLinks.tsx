@@ -15,12 +15,18 @@ const SocialLinks: FC<AllHTMLAttributes<HTMLUListElement>> = ({
           href="https://www.linkedin.com/in/lowzack/"
           target="_blank"
           rel="noreferrer"
+          aria-label="LinkedIn"
         >
           <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
         </a>
       </li>
       <li>
-        <a href="https://github.com/lowzack" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/lowzack"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+        >
           <FontAwesomeIcon icon={faGithub} className={styles.icon} />
         </a>
       </li>
