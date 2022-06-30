@@ -8,7 +8,7 @@ const Section: FC<AllHTMLAttributes<HTMLDivElement>> = ({
 }) => {
   return (
     <section {...props} className={clsx(className)}>
-      <div className="container">{children}</div>
+      <div className="container mx-auto sm:px-4">{children}</div>
     </section>
   );
 };

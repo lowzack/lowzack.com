@@ -32,15 +32,15 @@ export default function Home({
       </Head>
       <Hero className="py-2">
         <div
-          className="container p-4 text-white"
+          className="container mx-auto sm:px-4 p-6 text-white"
           style={{
             backdropFilter: "blur(20px)",
             backgroundColor: "rgba(0,0,0,.5)",
           }}
         >
-          <div className="row">
-            <div className="order-2 order-lg-1 col-sm-5 col-lg-3 pt-4 pt-sm-0 ps-lg-3 pe-lg-5 d-flex align-items-center">
-              <div className="shadow-lg border-chip d-flex">
+          <div className="flex flex-wrap ">
+            <div className="order-2 lg:order-1 sm:w-2/5 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center">
+              <div className="shadow-lg border-chip flex">
                 <Image
                   src="/static/prof.jpeg"
                   className="profile border-chip"
@@ -51,22 +51,19 @@ export default function Home({
                 />
               </div>
             </div>
-            <div className="order-1 order-lg-2 col-sm-7 col-lg-9 d-flex align-items-center">
-              <div className="w-100">
-                <div className="d-block d-lg-inline-flex align-items-end">
-                  <h1 className="pe-4">Zack Low</h1>
-                  <h2 className="pb-lg-1">Engineering Leader</h2>
+            <div className="order-1 lg:order-2 sm:w-3/5 pr-4 pl-4 lg:w-3/4 pr-4 pl-4 flex items-center">
+              <div className="w-full">
+                <div className="block lg:inline-flex items-end">
+                  <h1 className="pe-4 text-5xl">Zack Low</h1>
+                  <h2 className="lg:pb-1 text-3xl">Engineering Leader</h2>
                 </div>
-                <h3 className="pb-2">New York City</h3>
-                <SocialLinks
-                // class="h1 w-100 list-inline social-links"
-                // itemClass="list-inline-item mx-3"
-                />
+                <h3 className="pb-2 text-3xl">New York City</h3>
+                <SocialLinks />
               </div>
             </div>
           </div>
-          <div className="row mt-4">
-            <div className="col-xs-12">
+          <div className="flex flex-wrap  mt-4">
+            <div className="sm:w-full pr-4 pl-4">
               <p className="h5 px-2 mb-0 family-primary">
                 Engineering leader passionate about building highly efficient
                 and technically precise engineering teams by fostering
@@ -87,16 +84,16 @@ export default function Home({
         </div>
       </Hero>
       <Section className="bg-white">
-        <div className="p-4">
-          <h2 className="h1 mt-1 border-bottom border-primary">
+        <div className="p-6">
+          <h2 className="h1 mt-1 border-b border-blue-600">
             Current Employment
           </h2>
           <EmploymentDetail company={currentEmployment} />
         </div>
       </Section>
-      <Section className="bg-light">
-        <div className="p-4">
-          <h2 className="h1 mt-1 border-bottom border-primary">
+      <Section className="bg-gray-100">
+        <div className="p-6">
+          <h2 className="h1 mt-1 border-b border-blue-600">
             Previous Employment
           </h2>
           {previousEmployment.map((company, index) => (
