@@ -55,7 +55,7 @@ export default function Home({
               <div className="w-full">
                 <div className="block lg:inline-flex items-end">
                   <h1 className="pe-4 text-5xl">Zack Low</h1>
-                  <h2 className="lg:pb-1 text-3xl">Engineering Leader</h2>
+                  <h2 className="lg:pb-1 text-3xl lg:pl-4">Engineering Leader</h2>
                 </div>
                 <h3 className="pb-2 text-3xl">New York City</h3>
                 <SocialLinks />

@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1, .h1 {
+    @apply text-5xl;
+  }
+  h2, .h2 {
+    @apply text-3xl;
+  }
+  h3, .h3 {
+    @apply text-2xl
+  }
+  ul {
+    @apply list-disc ml-4 pl-4
+  }
+  p {
+    @apply text-lg leading-6 font-light
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Raleway:wght@300&display=swap");
 
 html,
@@ -32,5 +50,3 @@ h6 {
   border-radius: 1px 5px 5px 5px;
 }
 
-.transparent-black {
-}
