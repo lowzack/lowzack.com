@@ -12,7 +12,7 @@ const Hero: FC<AllHTMLAttributes<HTMLDivElement>> = ({
   return (
     <div className={clsx(styles.hero, className)}>
       <Image
-        src="/static/banner.jpg"
+        src="/static/banner.webp"
         layout="fill"
         objectFit="cover"
         alt="background image"

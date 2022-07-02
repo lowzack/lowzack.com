@@ -1,7 +1,7 @@
 export default {
   currentEmployment: {
     company: "Clover Network, Inc.",
-    logo: "/static/clover_primary_gray_rgb.png",
+    logo: "/static/clover_primary_gray_rgb.webp",
     logoAlt: "Clover Network, Inc. Logo",
     website: "https://www.clover.com/",
     dates: "October 2018 - present",
@@ -61,7 +61,7 @@ export default {
     },
     {
       company: "RIT ITS",
-      logo: "/static/its_logo.png",
+      logo: "/static/its_logo.webp",
       logoAlt: "RIT ITS Logo",
       website: "https://www.rit.edu/its/",
       dates: "August 2015 - July 2016",

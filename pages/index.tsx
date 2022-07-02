@@ -24,7 +24,7 @@ export default function Home({
       <Head>
         <title>Zack Low - Engineering Leader</title>
         <link rel="shortcut icon" href="/static/favicon.ico" />
-        <link rel="preload" as="image" href="/static/prof.jpeg" />
+        <link rel="preload" as="image" href="/static/prof.webp" />
         <meta
           name="description"
           content="Engineering leader passionate about building efficient and technically precise engineering teams by fostering collaborative environments with short feedback loops."
@@ -42,7 +42,7 @@ export default function Home({
             <div className="order-2 lg:order-1 sm:w-2/5 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center">
               <div className="shadow-lg border-chip flex">
                 <Image
-                  src="/static/prof.jpeg"
+                  src="/static/prof.webp"
                   className="profile border-chip"
                   layout="intrinsic"
                   width={600}
