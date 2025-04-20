@@ -29,12 +29,12 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
             style={{ position: "relative", height: "100%", width: "100%" }}
           >
             <a href={company.website} target="_blank" rel="noreferrer">
-              <Image
+              { company.logo && <Image
                 src={company.logo}
                 layout="fill"
                 alt={company.logoAlt}
                 objectFit="scale-down"
-              />
+              /> }
             </a>
           </div>
         </div>
