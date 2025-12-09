@@ -10,7 +10,12 @@
   }
 
   a {
-    color: white;
+    color: var(--color-white);
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: var(--color-soft-rose-brick);
+    }
   }
 
   .icon {
