@@ -13,10 +13,9 @@ const Hero: FC<AllHTMLAttributes<HTMLDivElement>> = ({
     <div className={clsx(styles.hero, className)}>
       <Image
         src="/static/banner.webp"
-        layout="fill"
-        objectFit="cover"
+        fill
         alt="background image"
-        objectPosition="bottom"
+        style={{ objectFit: "cover", objectPosition: "bottom" }}
         className={clsx(styles.heroImage)}
       />
       <Section {...props}>{children}</Section>
