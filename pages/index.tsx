@@ -27,7 +27,7 @@ export default function Home({
         <link rel="preload" as="image" href="/static/prof.webp" />
         <meta
           name="description"
-          content="Engineering leader passionate about building efficient and technically precise engineering teams by fostering collaborative environments with short feedback loops."
+          content="AI-focused engineering leader passionate about building data-driven, product-focused agile engineering teams by fostering collaborative environments."
         />
       </Head>
       <Hero className="py-2">
@@ -74,19 +74,14 @@ export default function Home({
               }}
             >
               <p className="h5 px-2 mb-0 family-primary text-white">
-                Engineering leader passionate about building highly efficient
-                and technically precise engineering teams by fostering
-                collaborative data-driven environments with short feedback
-                loops. I utilize my experience across full stack web
-                applications, API design, microservices, service decomposition
-                and component based front-end engineering to guide the technical
-                direction of my teams. Effective collaborator across business
-                functions including but not limited to: engineering, product,
-                design, ops, infrastructure, marketing and support functions.
-                Strong product and UX fundamentals with a focus on market trends
-                and technical innovation. Extremely effective recruiter with an
-                eye for identifying and developing top performing talent across
-                engineering, design, and product functions.
+                AI-focused engineering leader passionate about building
+                data-driven, product-focused agile engineering teams by fostering
+                collaborative environments. I leverage my technical expertise
+                across large-language models, full-stack applications, API
+                design, service decomposition, and observability to guide my
+                teams&apos; product and technical vision. I also apply concepts of
+                organizational design and behavior to my strategies to ensure
+                operational efficiency across the teams I work within.
               </p>
             </div>
           </div>
@@ -95,7 +90,7 @@ export default function Home({
       <Section className="bg-white">
         <div className="p-6">
           <h2 className="h1 mt-1 border-b border-blue-600">
-            Current Employment
+            Latest Employment
           </h2>
           <EmploymentDetail company={currentEmployment} />
         </div>
