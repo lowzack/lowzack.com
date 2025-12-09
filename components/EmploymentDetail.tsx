@@ -26,7 +26,15 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
         <div className="order-1 md:order-2 md:w-1/3 pr-4 pl-4 flex items-center">
           <div
             className="py-4 md:py-12 px-5 md:px-0"
-            style={{ position: "relative", height: "100%", width: "100%" }}
+            style={{ 
+              position: "relative", 
+              height: "100%", 
+              width: "100%",
+              ...(company.company === "GlossGenius" && {
+                transform: "scale(1.5)",
+                transformOrigin: "center"
+              })
+            }}
           >
             <a href={company.website} target="_blank" rel="noreferrer">
               <Image
