@@ -38,7 +38,6 @@ export default function Home({
                 <Image
                   src="/static/prof.webp"
                   className="profile"
-                  layout="intrinsic"
                   width={600}
                   height={600}
                   alt="Profile picture of Zack Low"

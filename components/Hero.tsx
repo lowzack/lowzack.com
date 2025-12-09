@@ -20,7 +20,7 @@ const Hero: FC<HeroProps> = ({
           // Position lines close together vertically in the center
           // Calculate offset from center (in pixels) - lines spaced 8px apart
           const offsetFromCenter = (index - (waveLines - 1) / 2) * 8;
-          
+
           return (
             <div
               key={index}
