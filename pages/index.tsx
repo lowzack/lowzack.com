@@ -24,23 +24,24 @@ export default function Home({
       <Head>
         <title>Zack Low - Engineering Leader</title>
         <link rel="shortcut icon" href="/static/favicon.ico" />
-        <link rel="preload" as="image" href="/static/prof.webp" />
+        <link rel="preload" as="image" href="/static/gg-zack-low-portrait.jpg" />
         <meta
           name="description"
           content="AI-focused engineering leader passionate about building data-driven, product-focused agile engineering teams by fostering collaborative environments."
         />
       </Head>
       <Hero className="py-2">
-        <div className="container mx-auto sm:px-4 p-6">
+        <div className="container mx-auto sm:px-4 p-6" style={{ maxWidth: '1200px' }}>
           <div className="flex flex-wrap items-center">
             <div className="sm:w-2/5 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center">
-              <div className="shadow-lg flex rounded-full overflow-hidden">
+              <div className="shadow-lg flex overflow-hidden" style={{ borderRadius: '9999px', maxHeight: '270px' }}>
                 <Image
-                  src="/static/prof.webp"
+                  src="/static/gg-zack-low-portrait.jpg"
                   className="profile"
-                  width={600}
-                  height={600}
+                  width={180}
+                  height={270}
                   alt="Profile picture of Zack Low"
+                  style={{ borderRadius: '9999px', maxHeight: '270px', width: 'auto', height: '100%' }}
                 />
               </div>
             </div>
