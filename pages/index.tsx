@@ -31,28 +31,29 @@ export default function Home({
         />
       </Head>
       <Hero className="py-2">
-        <div
-          className="container mx-auto sm:px-4 p-6 text-white"
-          style={{
-            backdropFilter: "blur(20px)",
-            backgroundColor: "rgba(0,0,0,.5)",
-          }}
-        >
-          <div className="flex flex-wrap ">
-            <div className="order-2 lg:order-1 sm:w-2/5 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center">
-              <div className="shadow-lg border-chip flex">
+        <div className="container mx-auto sm:px-4 p-6">
+          <div className="flex flex-wrap items-center">
+            <div className="sm:w-2/5 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center">
+              <div className="shadow-lg flex rounded-full overflow-hidden">
                 <Image
                   src="/static/prof.webp"
-                  className="profile border-chip"
-                  layout="intrinsic"
+                  className="profile"
                   width={600}
                   height={600}
                   alt="Profile picture of Zack Low"
                 />
               </div>
             </div>
-            <div className="order-1 lg:order-2 sm:w-3/5 pr-4 pl-4 lg:w-3/4 pr-4 pl-4 flex items-center">
-              <div className="w-full">
+            <div
+              className="sm:w-3/5 lg:w-3/4 pr-4 pl-4 flex items-center"
+              style={{
+                backdropFilter: "blur(10px)",
+                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                borderRadius: "8px",
+                padding: "1rem",
+              }}
+            >
+              <div className="w-full text-white">
                 <div className="block lg:inline-flex items-end">
                   <h1 className="pe-4 text-5xl">Zack Low</h1>
                   <h2 className="lg:pb-1 text-3xl lg:pl-4">Engineering Leader</h2>
