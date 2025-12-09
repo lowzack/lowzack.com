@@ -6,7 +6,7 @@ import styles from "./SocialLinks.module.scss";
 
 const SocialLinks: FC<AllHTMLAttributes<HTMLUListElement>> = ({
   className,
-  ...props
+  ..._props
 }) => {
   return (
     <ul className={clsx(className, styles.list)}>
