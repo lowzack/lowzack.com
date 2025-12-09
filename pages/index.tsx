@@ -79,7 +79,7 @@ export default function Home({
                 collaborative environments. I leverage my technical expertise
                 across large-language models, full-stack applications, API
                 design, service decomposition, and observability to guide my
-                teams' product and technical vision. I also apply concepts of
+                teams&apos; product and technical vision. I also apply concepts of
                 organizational design and behavior to my strategies to ensure
                 operational efficiency across the teams I work within.
               </p>

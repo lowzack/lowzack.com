@@ -39,9 +39,9 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
             <a href={company.website} target="_blank" rel="noreferrer">
               <Image
                 src={company.logo}
-                fill
+                layout="fill"
                 alt={company.logoAlt}
-                style={{ objectFit: "scale-down" }}
+                objectFit="scale-down"
               />
             </a>
           </div>
