@@ -49,7 +49,7 @@ export default function Home({
               className="sm:w-3/5 lg:w-3/4 pr-4 pl-4 flex items-center"
               style={{
                 backdropFilter: "blur(10px)",
-                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                backgroundColor: "var(--color-modern-black-30)",
                 borderRadius: "8px",
                 padding: "1rem",
               }}
@@ -69,7 +69,7 @@ export default function Home({
               className="sm:w-full pr-4 pl-4"
               style={{
                 backdropFilter: "blur(10px)",
-                backgroundColor: "rgba(0, 0, 0, 0.3)",
+                backgroundColor: "var(--color-modern-black-30)",
                 borderRadius: "8px",
                 padding: "1rem",
               }}
@@ -88,17 +88,17 @@ export default function Home({
           </div>
         </div>
       </Hero>
-      <Section className="bg-white">
+      <Section className="bg-warm-eggshell">
         <div className="p-6">
-          <h2 className="h1 mt-1 border-b border-blue-600">
+          <h2 className="h1 mt-1 border-b border-wine-red pb-2" style={{ borderBottomWidth: '3px' }}>
             Latest Employment
           </h2>
           <EmploymentDetail company={currentEmployment} />
         </div>
       </Section>
-      <Section className="bg-gray-100">
+      <Section className="bg-warm-eggshell">
         <div className="p-6">
-          <h2 className="h1 mt-1 border-b border-blue-600">
+          <h2 className="h1 mt-1 border-b border-wine-red pb-2" style={{ borderBottomWidth: '3px' }}>
             Previous Employment
           </h2>
           {previousEmployment.map((company, index) => (

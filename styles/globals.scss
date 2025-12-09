@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@theme {
+  --color-modern-black: #101011;
+  --color-penumbra-gray: #1F1F22;
+  --color-warm-eggshell: #EFE9E6;
+  --color-wine-red: #7A1B24;
+  --color-soft-rose-brick: #C45A63;
+  --color-white: #FFFFFF;
+  --color-modern-black-30: rgba(16, 16, 17, 0.3);
+  --color-white-70: rgba(255, 255, 255, 0.7);
+}
+
+:root {
+  --color-modern-black: #101011;
+  --color-penumbra-gray: #1F1F22;
+  --color-warm-eggshell: #EFE9E6;
+  --color-wine-red: #7A1B24;
+  --color-soft-rose-brick: #C45A63;
+  --color-white: #FFFFFF;
+  --color-modern-black-30: rgba(16, 16, 17, 0.3);
+  --color-white-70: rgba(255, 255, 255, 0.7);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;600;700&family=Albert+Sans:wght@300;400&display=swap");
 
 @layer base {

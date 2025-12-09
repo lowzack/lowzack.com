@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background-color: #000000;
+  background-color: var(--color-modern-black);
   overflow: hidden;
 
   :global(section) {
@@ -25,7 +25,7 @@
   top: 50%;
   width: 150%;
   height: 2px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: var(--color-white-70);
   animation: waveAnimation 3s ease-in-out infinite;
   transform-origin: center center;
   --offset-y: 0px;
