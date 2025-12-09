@@ -7,7 +7,7 @@ import Section from "../components/Section";
 import SocialLinks from "../components/SocialLinks";
 import employment from "../data/employment";
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async (_context) => {
   return {
     props: {
       employment,
