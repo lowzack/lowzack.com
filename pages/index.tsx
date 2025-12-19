@@ -33,7 +33,7 @@ export default function Home({
       <Hero className="py-2">
         <div className="container mx-auto sm:px-4 p-6" style={{ maxWidth: '1200px' }}>
           <div className="flex flex-wrap items-center">
-            <div className="sm:w-2/5 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center justify-center sm:justify-start">
+            <div className="w-full sm:w-2/5 lg:w-1/4 pr-4 pl-4 pt-4 sm:pt-0 lg:ps-4 lg:pe-12 flex items-center justify-center sm:justify-start">
               <div className="shadow-lg flex overflow-hidden" style={{ borderRadius: '9999px', maxHeight: '270px' }}>
                 <Image
                   src="/static/gg-zack-low-portrait.jpg"
@@ -46,7 +46,7 @@ export default function Home({
               </div>
             </div>
             <div
-              className="sm:w-3/5 lg:w-3/4 pr-4 pl-4 flex items-center"
+              className="w-full sm:w-3/5 lg:w-3/4 pr-4 pl-4 flex items-center"
               style={{
                 backdropFilter: "blur(10px)",
                 backgroundColor: "var(--color-modern-black-30)",
