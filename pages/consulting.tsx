@@ -52,7 +52,15 @@ export default function Consulting() {
       {/* Hero Section */}
       <Hero className="py-12">
         <div className="container mx-auto sm:px-4 p-6" style={{ maxWidth: "1200px" }}>
-          <div className="text-center text-white max-w-4xl mx-auto">
+          <div
+            className="text-center text-white max-w-4xl mx-auto"
+            style={{
+              backdropFilter: "blur(10px)",
+              backgroundColor: "var(--color-modern-black-30)",
+              borderRadius: "8px",
+              padding: "2rem",
+            }}
+          >
             <h1 className="mb-4">AI Consulting for Scaling Startups</h1>
             <p className="text-xl mb-8 text-white-70">
               Audits for vibecoded/early-PMF systems and focused AI POCs that can scale.
