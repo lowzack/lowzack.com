@@ -12,7 +12,7 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
   return (
     <div className="md:px-6">
       <div className="flex flex-wrap ">
-        <div className="md:w-2/3 pr-4 py-2 order-2 md:order-1">
+        <div className="w-full md:w-2/3 pr-4 py-2 order-2 md:order-1">
           <h2 className="mt-4 mb-2">
             {company.company}&nbsp;
             <small className="text-penumbra-gray">{company.dates}</small>
@@ -23,13 +23,12 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
           </h3>
           <p className="pb-2">{company.overview}</p>
         </div>
-        <div className="order-1 md:order-2 md:w-1/3 pr-4 pl-4 flex items-center">
+        <div className="w-full order-1 md:order-2 md:w-1/3 pr-4 pl-4 flex items-center justify-center py-6 md:py-0">
           <div
-            className="py-4 md:py-12 px-5 md:px-0"
             style={{ 
               position: "relative", 
-              height: "100%", 
-              width: "100%",
+              width: "280px",
+              height: "180px",
               ...(company.company === "GlossGenius" && {
                 transform: "scale(1.5)",
                 transformOrigin: "center"
@@ -41,7 +40,7 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
                 src={company.logo}
                 layout="fill"
                 alt={company.logoAlt}
-                objectFit="scale-down"
+                objectFit="contain"
               />
             </a>
           </div>
