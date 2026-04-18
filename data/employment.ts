@@ -1,7 +1,7 @@
 export default {
   currentEmployment: {
     company: "Thrive Mobile",
-    logo: "/static/thrivemobile-logo.svg",
+    logo: "https://logo.clearbit.com/thrivemobile.com",
     logoAlt: "Thrive Mobile Logo",
     website: "https://www.thriveapp.io/",
     dates: "March 2026 - Present",
