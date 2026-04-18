@@ -1,31 +1,46 @@
 export default {
   currentEmployment: {
-    company: "GlossGenius",
-    logo: "/static/gglogo.svg",
-    logoAlt: "GlossGenius Logo",
-    website: "https://www.glossgenius.com/",
-    dates: "March 2023 - September 2025",
-    overview:
-      "AI-focused engineering leader passionate about building data-driven, product-focused agile engineering teams by fostering collaborative environments.",
+    company: "Thrive Mobile",
+    logo: "/static/thrivemobile-logo.svg",
+    logoAlt: "Thrive Mobile Logo",
+    website: "https://www.thriveapp.io/",
+    dates: "March 2026 - Present",
+    overview: "",
     roles: [
       {
-        title: "Engineering Manager",
-        dates: "March 2023 - September 2025",
-        highlights: [
-          "Led and contributed to AI-focused product offerings, leveraging LLMs, prompt engineering, and OpenAI GPT models. These projects increased waitlist conversions by 23%, resulting in a $16m GMV increase, increasing key onboarding actions by 20%, and helping drive ARR increases through higher software pricing.",
-          "Procured and evangelized AI tooling such as the Cursor IDE, Devin.ai, and Claude, driving a 30% increase in code contributions across an engineering organization of 90+.",
-          "Created and led the AI Platform team, driving the product and technical vision through documentation and systems design, contributing as a Staff IC engineer as I expanded the team's headcount. Technologies used were Kotlin, Typescript, React Native, Mastra, and the OpenAI API.",
-          "Formed a Growth Engineering team, driving a 30% increase in ARR in its first year through software pricing and upgrade funnels across multiple user cohorts. This was done with a data-driven approach utilizing Segment, Snowflake, Mixpanel, and Looker.",
-          "Increased conversion rate by 19% by utilizing A/B testing to implement onboarding and other funnel improvements within one fiscal half. This was done using design thinking processes, iterative design, and experiment evaluation through Eppo.",
-          "Aligned with cross-functional stakeholders such as the Go-to-Market and Partnerships teams to ensure channel health, develop strategic partnership opportunities, and drive top-of-funnel growth. This led to an incremental 11% increase in ARR.",
-          "Documented and presented roadmaps, operational updates, and key decisions to Executives and other critical stakeholders utilizing executive communication strategies, storytelling, and data visualization.",
-          "Contributed to 100+% headcount growth within my team (4 to 9) and the engineering department (30 to 120) by conducting interviews, making hiring decisions, and establishing new internship and early-career pipelines.",
-          "Conducted regular performance reviews utilizing qualitative and quantitative data to assess performance across key dimensions. This led to quick evaluations of new hires, multiple promotions, and continued growth across junior to Staff reports.",
-        ],
+        title: "Head of Engineering",
+        dates: "March 2026 - Present",
+        highlights: [],
       },
     ],
   },
   previousEmployment: [
+    {
+      company: "GlossGenius",
+      logo: "/static/gglogo.svg",
+      logoAlt: "GlossGenius Logo",
+      website: "https://www.glossgenius.com/",
+      dates: "March 2023 - September 2025",
+      overview:
+        "AI-focused engineering leader passionate about building data-driven, product-focused agile engineering teams by fostering collaborative environments.",
+      roles: [
+        {
+          title: "Engineering Manager",
+          dates: "March 2023 - September 2025",
+          highlights: [
+            "Led and contributed to AI-focused product offerings, leveraging LLMs, prompt engineering, and OpenAI GPT models. These projects increased waitlist conversions by 23%, resulting in a $16m GMV increase, increasing key onboarding actions by 20%, and helping drive ARR increases through higher software pricing.",
+            "Procured and evangelized AI tooling such as the Cursor IDE, Devin.ai, and Claude, driving a 30% increase in code contributions across an engineering organization of 90+.",
+            "Created and led the AI Platform team, driving the product and technical vision through documentation and systems design, contributing as a Staff IC engineer as I expanded the team's headcount. Technologies used were Kotlin, Typescript, React Native, Mastra, and the OpenAI API.",
+            "Formed a Growth Engineering team, driving a 30% increase in ARR in its first year through software pricing and upgrade funnels across multiple user cohorts. This was done with a data-driven approach utilizing Segment, Snowflake, Mixpanel, and Looker.",
+            "Increased conversion rate by 19% by utilizing A/B testing to implement onboarding and other funnel improvements within one fiscal half. This was done using design thinking processes, iterative design, and experiment evaluation through Eppo.",
+            "Aligned with cross-functional stakeholders such as the Go-to-Market and Partnerships teams to ensure channel health, develop strategic partnership opportunities, and drive top-of-funnel growth. This led to an incremental 11% increase in ARR.",
+            "Documented and presented roadmaps, operational updates, and key decisions to Executives and other critical stakeholders utilizing executive communication strategies, storytelling, and data visualization.",
+            "Contributed to 100+% headcount growth within my team (4 to 9) and the engineering department (30 to 120) by conducting interviews, making hiring decisions, and establishing new internship and early-career pipelines.",
+            "Conducted regular performance reviews utilizing qualitative and quantitative data to assess performance across key dimensions. This led to quick evaluations of new hires, multiple promotions, and continued growth across junior to Staff reports.",
+          ],
+        },
+      ],
+    },
     {
       company: "Clover Network Inc.",
       logo: "/static/clover_primary_gray_rgb.webp",
