@@ -24,11 +24,11 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
           <p className="pb-2">{company.overview}</p>
         </div>
         <div className="order-1 md:order-2 md:w-1/3 pr-4 pl-4 flex items-center">
-          <div
+          {company.logo && <div
             className="py-4 md:py-12 px-5 md:px-0"
-            style={{ 
-              position: "relative", 
-              height: "100%", 
+            style={{
+              position: "relative",
+              height: "100%",
               width: "100%",
               ...(company.company === "GlossGenius" && {
                 transform: "scale(1.5)",
@@ -44,7 +44,7 @@ const EmploymentDetail: FC<Employment> = ({ company }) => {
                 objectFit="scale-down"
               />
             </a>
-          </div>
+          </div>}
         </div>
       </div>
       <ul>
